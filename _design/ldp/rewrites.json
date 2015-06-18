@@ -13,7 +13,13 @@
   },
   {
     "---": "LDP Resource",
+    "method": "POST",
+    "from": "/",
+    "to": "/_update/to-json-ld"
+  },
+  {
+    "---": "LDP Resource",
     "from": "/:doc",
-    "to": "../../:doc"
+    "to": "/_show/turtle/:doc"
   }
 ]
